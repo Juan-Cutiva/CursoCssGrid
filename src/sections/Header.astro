@@ -1,0 +1,70 @@
+<section id="hero">
+    <div id="content" class="flex flex-wrap justify-center">
+        <div class="flex justify-center flex-col items-center">
+            <article id="lorem" class="flex font-bold text-purple-950">Check the best food</article>
+            <p class="text-center min-w-[24rem] max-w-[36rem] lg:max-w-[50rem] text-pretty px-4 text-[1.5rem] font-semibold text-gray-800 mt-4">Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptates repellat a officia, quam perspiciatis
+                iste quisquam iusto reprehenderit non nobis voluptate, eum nisi dignissimos fugiat doloribus totam,
+                dolorem dolorum at.</p>
+                <a href="#" class="w-40 h-10 bg-orange-600 hover:bg-orange-700 text-white font-semibold rounded-3xl pb-1 flex items-center justify-center my-4">How To Make &#10140;</a>
+        </div>
+    </div>
+    <img src="/Comidas Saludables Bajas En Calorias.jpeg" alt="Food" id="img" class="max-h-96 min-h-24 mr-16 rounded-xl mt-8">
+</section>
+
+<style>
+    #hero {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        grid-template-rows: 1fr;
+        grid-column-gap: 0px;
+        grid-row-gap: 0px;
+        flex-wrap: wrap;
+        justify-items: end;
+    }
+
+    #lorem{
+        font-size: 4.5rem;
+        min-width: 1rem;
+        width: 22rem;
+        height: auto;
+    }
+
+    #content {
+        grid-area: 1 / 1 / 2 / 2;
+        height: 100%;
+        width: 100%;
+    }
+
+    #img {
+        grid-area: 1 / 2 / 2 / 3;
+        height: auto;
+        width: auto;
+    }
+    @media (max-width:800px) {
+        #hero {
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: repeat(2, 1fr);
+        grid-column-gap: 0px;
+        grid-row-gap: 0px;
+        justify-items: center;
+    }
+    #lorem{
+        font-size: 4rem;
+        text-align: center;
+        padding-top: 0.5rem;
+    }
+    #img {
+        grid-area: 2 / 1 / 2 / 3;
+        height: 90%;
+        width: auto;
+        margin-right: 0px;
+        margin-top: 0px;
+    }
+    p{
+        font-size: 1.2rem;
+        margin-top: 0.5rem;
+    }
+    }
+    
+</style>
