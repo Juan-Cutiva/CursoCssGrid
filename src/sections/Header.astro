@@ -8,7 +8,8 @@
                 <a href="#" class="w-40 h-10 bg-orange-600 hover:bg-orange-700 text-white font-semibold rounded-3xl pb-1 flex items-center justify-center my-4">How To Make &#10140;</a>
         </div>
     </div>
-    <img src="/Comidas Saludables Bajas En Calorias.jpeg" alt="Food" id="img" class="max-h-96 min-h-24 mr-16 rounded-xl mt-8">
+    <iframe id="iframe" src="https://assets.pinterest.com/ext/embed.html?id=844493671254998" height="550" width="450" frameborder="0" scrolling="no" class=" mr-16 rounded-xl mt-8"></iframe>
+    <iframe id="iframedos" src="https://assets.pinterest.com/ext/embed.html?id=844493671254998" height="450" width="350" frameborder="0" scrolling="no" class=" mr-16 rounded-xl mt-8"></iframe>
 </section>
 
 <style>
@@ -40,6 +41,12 @@
         height: auto;
         width: auto;
     }
+    #iframedos{
+        grid-area: 2 / 1 / 2 / 3;
+        margin-right: 0px;
+        margin-top: 0px;
+        display: none;
+    }
     @media (max-width:800px) {
         #hero {
         display: grid;
@@ -54,12 +61,17 @@
         text-align: center;
         padding-top: 0.5rem;
     }
-    #img {
+    #iframe {
         grid-area: 2 / 1 / 2 / 3;
-        height: 90%;
-        width: auto;
         margin-right: 0px;
         margin-top: 0px;
+        display: none;
+    }
+    #iframedos{
+        grid-area: 2 / 1 / 2 / 3;
+        margin-right: 0px;
+        margin-top: 0px;
+        display:block;
     }
     p{
         font-size: 1.2rem;
