@@ -4,4 +4,4 @@
 
 En este curso aprendi sobre CSS Grid a profundidad, el link del curso es este:
 
-<a href="https://platzi.com/home/clases/2474-css-grid/42192-armando-el-listado/"><img src="https://static.platzi.com/media/learningpath/badges/426f8baa-c38c-4f41-af01-1ed55754bc08.jpg"/></a>
+<a href="https://platzi.com/home/clases/2474-css-grid/42192-armando-el-listado/"><img src="https://static.platzi.com/media/learningpath/badges/426f8baa-c38c-4f41-af01-1ed55754bc08.jpg" target="_blank" rel="noopener noreferrer"/></a>
